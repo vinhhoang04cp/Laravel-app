@@ -1,0 +1,11 @@
+{
+    "name": "Shareholder",
+    "alias": "shareholder",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Shareholder\\App\\Providers\\ShareholderServiceProvider"
+    ],
+    "files": []
+}

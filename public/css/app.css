@@ -1,0 +1,50 @@
+.app-container .content-container .side-menu .navbar-header .navbar-brand .logo-icon-container {
+    width: 100%;
+}
+
+.app-container .content-container .side-menu .navbar-header .navbar-brand img {
+    max-width: 100%;
+}
+
+.voyager .side-menu.sidebar-inverse {
+    /*background: #00ae9f ; !* nền sidebar xanh ngọc *!*/
+    background: #1ab7b9;
+}
+
+.voyager .side-menu.sidebar-inverse .navbar li > a {
+    color: #ffffff; /* chữ + icon màu trắng */
+    transition: all 0.3s ease;
+}
+
+.voyager .side-menu.sidebar-inverse .navbar li.active > a {
+    background-color: rgba(255, 255, 255, 0.15); /* sáng nhẹ khi hover */
+    border-left: 4px solid #ffffff; /* viền trắng bên trái khi active */
+    color: #ffffff; /* chữ trắng */
+}
+
+.voyager .side-menu.sidebar-inverse .navbar li > a:hover {
+    background-color: rgba(255, 255, 255, 0.15); /* sáng nhẹ khi hover */
+}
+
+.voyager .side-menu .navbar-header {
+    background-color: #1ab7b9 !important; /* header nền trắng */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.modal-content {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: .3rem;
+    outline: 0;
+}

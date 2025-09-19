@@ -1,0 +1,11 @@
+{
+    "name": "Vote",
+    "alias": "vote",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Vote\\App\\Providers\\VoteServiceProvider"
+    ],
+    "files": []
+}
